@@ -1,5 +1,5 @@
 {
-  "name": "@gabortorma/nuxt-feathers-pinia",
+  "name": "nuxt-feathers-pinia",
   "version": "0.1.2",
   "license": "MIT",
   "type": "module",
@@ -8,6 +8,10 @@
       "import": "./dist/module.mjs",
       "require": "./dist/module.cjs"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GaborTorma/nuxt-feathers-pinia"
   },
   "publishConfig": {
     "access": "public"
