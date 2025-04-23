@@ -7,8 +7,12 @@ export default defineNuxtConfig({
   ],
 
   modules: [
-    '../src/module',
+    './src/module',
   ],
+
+  imports: {
+    autoImport: false,
+  },
 
   typescript: {
     builder: 'shared',

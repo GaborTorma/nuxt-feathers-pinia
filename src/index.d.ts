@@ -1,4 +1,4 @@
-import { FP } from "./types"
+import type { FP } from './types'
 
 declare module '#app' {
   interface NuxtApp {

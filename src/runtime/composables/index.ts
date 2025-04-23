@@ -1,11 +1,11 @@
 export {
   createPiniaClient,
-  defineValues,
   defineGetters,
   defineSetters,
+  defineValues,
   useAuth,
   useBackup,
   useDataStore,
   useInstanceDefaults,
-  useServiceInstance
-} from 'feathers-pinia'
+  useServiceInstance,
+} from '@gabortorma/feathers-pinia'
