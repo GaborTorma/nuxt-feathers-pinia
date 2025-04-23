@@ -34,7 +34,8 @@
     "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
     "lint": "eslint . && nr -r lint",
     "lint:fix": "eslint . --fix && nr -r lint:fix",
-    "prepare": "nuxi prepare && nr dev:prepare"
+    "prepare": "nuxi prepare && nr dev:prepare",
+    "release": "dotenv release-it"
   },
   "peerDependencies": {
     "@gabortorma/feathers-pinia": "^5.0.0"
@@ -44,10 +45,13 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.12.0",
+    "@gabortorma/mwm": "^0.8.12",
     "@gabortorma/nuxt-eslint-layer": "^0.5.1",
     "@nuxt/module-builder": "^1.0.1",
     "@nuxt/schema": "^3.16.2",
+    "dotenv-cli": "^8.0.0",
     "eslint": "^9.25.1",
-    "nuxt": "^3.16.2"
+    "nuxt": "^3.16.2",
+    "release-it": "^19.0.1"
   }
 }
