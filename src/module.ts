@@ -6,7 +6,7 @@ export interface ModuleOptions {
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: 'nuxt-feathers-pinia',
+    name: '@gabortorma/nuxt-feathers-pinia',
     configKey: 'feathersPinia',
     compatibility: {
       nuxt: '^3.0.0',
